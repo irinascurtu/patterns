@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{D1D63367-96A4-4D3E-90DD-0B7CBB61E108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{F0391C76-57AA-4B3E-AB07-FFCB75BDCC53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "AbstractFactory\Factory.csproj", "{F0391C76-57AA-4B3E-AB07-FFCB75BDCC53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{3DDFDE3C-F469-4E91-BDAB-34B9A6F544C7}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{B7334559-40C0-4F96-B427-4F2FC27B6DE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{4C0A5789-99A8-4E29-9708-0405AFCA03EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilder", "FluentBuilder\FluentBuilder.csproj", "{8A12A7CE-4AEC-42FD-901C-4EB639FC1A69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{4C0A5789-99A8-4E29-9708-0405AFCA03EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C0A5789-99A8-4E29-9708-0405AFCA03EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C0A5789-99A8-4E29-9708-0405AFCA03EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A12A7CE-4AEC-42FD-901C-4EB639FC1A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A12A7CE-4AEC-42FD-901C-4EB639FC1A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A12A7CE-4AEC-42FD-901C-4EB639FC1A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A12A7CE-4AEC-42FD-901C-4EB639FC1A69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

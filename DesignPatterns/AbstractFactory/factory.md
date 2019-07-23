@@ -1,4 +1,4 @@
-﻿### Abstract Factory
+﻿### Factory
  creational design pattern that lets you produce families of related objects without specifying their
  concrete classes
 - abstracts the creation of families of dependent objects
